@@ -1,0 +1,152 @@
+$ next start -H "0.0.0.0" -p "3000"
+  ▲ Next.js 14.2.26
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 704ms
+🚀 Initializing server resources...
+✅ Server resources initialized successfully
+Connected to database
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+Fetching featured blog posts for home page
+Found 2 published blog posts
+NextAuth конфигурация в [...nextauth]:
+Доступные провайдеры: [ 'credentials' ]
+Secret задан: true
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+Fetching featured blog posts for home page
+Found 1 published blog posts
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+Fetching featured blog posts for home page
+Found 1 published blog posts
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+Error updating blog post: PrismaClientValidationError: 
+Invalid `prisma.blogPost.findUnique()` invocation:
+
+{
+  where: {
+    slug: "populyarnyy-marshrut-iz-kaliningrada-v-gdansk",
+    id: {
+      not: 6
+    }
+    ~~~~~~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+    at Tn (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:115:5888)
+    at In.handleRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6510)
+    at In.handleAndLogRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6188)
+    at In.request (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:5896)
+    at async l (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:127:10871)
+    at async g (/var/www/www-root/data/www/royaltransfer.org/.next/server/app/api/blog/route.js:1:2124)
+    at async /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1366:42) {
+  clientVersion: '5.11.0'
+}
+Error updating blog post: PrismaClientValidationError: 
+Invalid `prisma.blogPost.findUnique()` invocation:
+
+{
+  where: {
+    slug: "populyarnyy-marshrut-iz-kaliningrada-v-gdansk",
+    id: {
+      not: 6
+    }
+    ~~~~~~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+    at Tn (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:115:5888)
+    at In.handleRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6510)
+    at In.handleAndLogRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6188)
+    at In.request (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:5896)
+    at async l (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:127:10871)
+    at async g (/var/www/www-root/data/www/royaltransfer.org/.next/server/app/api/blog/route.js:1:2124)
+    at async /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1366:42) {
+  clientVersion: '5.11.0'
+}
+Fetching featured blog posts for home page
+Found 1 published blog posts
+`x-forwarded-host` header with value `5.63.152.207:80` does not match `origin` header with value `5.63.152.207` from a forwarded Server Actions request. Aborting the action.
+ ⨯ Error: Invalid Server Actions request.
+    at rE (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:15:7189)
+    at r7 (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:18:1150)
+    at /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:19:726
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Object.wrap (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:13:17831)
+    at /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:19:616
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Object.wrap (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:13:16935)
+    at ne (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:19:543)
+    at nx.render (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:19:4578)
+ ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+Error updating blog post: PrismaClientValidationError: 
+Invalid `prisma.blogPost.findUnique()` invocation:
+
+{
+  where: {
+    slug: "populyarnyy-marshrut-iz-kaliningrada-v-gdansk",
+    id: {
+      not: 6
+    }
+    ~~~~~~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+    at Tn (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:115:5888)
+    at In.handleRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6510)
+    at In.handleAndLogRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6188)
+    at In.request (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:5896)
+    at async l (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:127:10871)
+    at async g (/var/www/www-root/data/www/royaltransfer.org/.next/server/app/api/blog/route.js:1:2124)
+    at async /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1366:42) {
+  clientVersion: '5.11.0'
+}
+Error updating blog post: PrismaClientValidationError: 
+Invalid `prisma.blogPost.findUnique()` invocation:
+
+{
+  where: {
+    slug: "oiuu9ouoioiuk",
+    id: {
+      not: 7
+    }
+    ~~~~~~~~
+  }
+}
+
+Argument `id`: Invalid value provided. Expected Int, provided Object.
+    at Tn (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:115:5888)
+    at In.handleRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6510)
+    at In.handleAndLogRequestError (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:6188)
+    at In.request (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:122:5896)
+    at async l (/var/www/www-root/data/www/royaltransfer.org/node_modules/@prisma/client/runtime/library.js:127:10871)
+    at async g (/var/www/www-root/data/www/royaltransfer.org/.next/server/app/api/blog/route.js:1:2124)
+    at async /var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/var/www/www-root/data/www/royaltransfer.org/node_modules/next/dist/server/base-server.js:1366:42) {
+  clientVersion: '5.11.0'
+}
+Fetching featured blog posts for home page
+Found 0 published blog posts
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+Fetching featured blog posts for home page
+Found 1 published blog posts
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /images/car-silhouette.png received text/html; charset=utf-8
